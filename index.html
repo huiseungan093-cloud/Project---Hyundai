@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+
+<html lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-surface":"#263143","primary-fixed":"#d7e3ff","eco-emerald":"#059669","on-primary-fixed-variant":"#25467a","error":"#ba1a1a","on-tertiary-fixed":"#002114","secondary-container":"#77d1fe","on-error":"#ffffff","electric-cyan":"#00B0FF","secondary-fixed":"#c1e8ff","surface-slate":"#F8FAFC","on-tertiary-container":"#2ca879","surface-bright":"#f9f9ff","on-error-container":"#93000a","on-secondary":"#ffffff","on-surface":"#111c2d","on-secondary-container":"#005977","on-primary-fixed":"#001b3f","surface-variant":"#d8e3fb","surface":"#f9f9ff","surface-container-low":"#f0f3ff","background":"#f9f9ff","surface-tint":"#3f5e94","surface-card":"#FFFFFF","badge-emerald-bg":"#ECFDF5","tertiary":"#001e12","secondary":"#006688","surface-container-high":"#dee8ff","on-tertiary-fixed-variant":"#005137","surface-container-lowest":"#ffffff","on-primary-container":"#7695ce","on-tertiary":"#ffffff","primary-fixed-dim":"#abc7ff","inverse-on-surface":"#ecf1ff","surface-container":"#e7eeff","secondary-fixed-dim":"#77d1fe","primary-container":"#002c5f","on-secondary-fixed":"#001e2b","surface-dim":"#cfdaf2","tertiary-fixed-dim":"#68dba9","surface-container-highest":"#d8e3fb","inverse-primary":"#abc7ff","error-container":"#ffdad6","primary":"#001839","on-surface-variant":"#43474f","outline-variant":"#c4c6d1","on-secondary-fixed-variant":"#004d67","on-background":"#111c2d","border-subtle":"#E2E8F0","outline":"#747780","tertiary-container":"#003522","badge-cyan-bg":"#E0F2FE","on-primary":"#ffffff","tertiary-fixed":"#85f8c4"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-xl":"2.5rem","space-md":"1rem","space-lg":"1.5rem","gutter":"1.5rem","gutter-sm":"1rem","space-2xl":"4rem","margin":"2rem","space-xs":"0.25rem","space-sm":"0.5rem","margin-mobile":"1rem"},fontFamily:{"label-sm":["Plus Jakarta Sans"],"body-md":["Noto Sans"],"headline-md":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"body-sm":["Noto Sans"],"title-md":["Noto Sans"],"headline-sm":["Plus Jakarta Sans"],"metric-val":["Plus Jakarta Sans"],"title-lg":["Noto Sans"],"label-lg":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"display":["Plus Jakarta Sans"],"display-mobile":["Plus Jakarta Sans"],"body-lg":["Noto Sans"]},fontSize:{"label-sm":["11px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"title-md":["16px",{"lineHeight":"24px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"metric-val":["42px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"800"}],"title-lg":["18px",{"lineHeight":"26px","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-lg":["36px",{"lineHeight":"46px","letterSpacing":"-0.02em","fontWeight":"700"}],"display":["48px",{"lineHeight":"60px","letterSpacing":"-0.02em","fontWeight":"700"}],"display-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-lg":["17px",{"lineHeight":"28px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Eco-Mobility Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrBpq5YxfL_Y6EFHoAtCyII2OPRF1kiQxoqIG1NLO3s-h81jin1BqVawioRKlihqD3f4AOA3u2E1HHt1x55V32Hqlu56TOiPvpqPZzrzbtQGIKDeLv-ctWrwMdpfWCvIryWVaSJqMTnOg8-AyFO7pDybJL18pj3keBcyO3nA7P3V7qNKX4SG_qagPuh9foYG-qAwEUhB0Sk5lyqaHZ-kNRIJfu_acphPmKy3ksLTFXFyzA"/><a class="flex flex-col text-decoration-none" data-path="overview" href="#"><span class="font-title-lg text-title-lg text-primary tracking-tight">현대 모빌리티 인사이트</span><span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Eco-Mobility Intelligence</span></a></div><nav class="hidden xl:flex items-center gap-space-sm" data-active-classes="bg-primary-container text-on-primary font-bold rounded-lg"><a aria-current="page" class="px-space-md py-space-sm transition-colors bg-primary-container text-on-primary font-bold rounded-lg" data-path="overview" href="#">개요</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="powertrain-tech" href="#">핵심 구동 기술</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="hydrogen-sdv" href="#">수소 &amp; SDV</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="energy-re100" href="#">에너지 전환 RE100</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="summary-notes" href="#">요약 노트</a></nav><div class="flex items-center gap-space-sm shrink-0"><a class="hidden sm:inline-flex items-center justify-center px-space-md py-space-sm rounded-lg font-label-lg text-label-lg text-primary bg-surface-container-high hover:bg-surface-variant hover:text-on-surface transition-colors" data-path="sustainability-report" href="#">보고서 전문 보기</a><a class="inline-flex items-center justify-center px-space-md py-space-sm rounded-lg font-label-lg text-label-lg bg-primary text-on-primary hover:bg-secondary hover:text-on-secondary transition-colors" data-path="sustainability-dashboard" href="#">대시보드 바로가기</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0 ml-space-xs"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Visual Accent Sub-Bar -->
+<div class="w-full bg-surface-slate py-space-sm px-margin-mobile lg:px-margin">
+<div class="max-w-[1200px] mx-auto flex flex-wrap items-center justify-between gap-space-sm font-label-sm text-label-sm text-outline">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-badge-cyan-bg text-secondary font-bold">ECO-INTELLIGENCE BRIEF</span>
+<span class="text-on-surface-variant">현대자동차 친환경 모빌리티 &amp; 에너지 대전환 가이드북</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-eco-emerald"></span>글로벌 온실가스 감축 실행 로드맵</span>
+<span class="hidden md:inline text-outline-variant">|</span>
+<span class="hidden md:inline">2045 NET ZERO COMMITMENT</span>
+</div>
+</div>
+</div>
+<!-- SECTION 1: HERO & IMPACT METRICS -->
+<section class="w-full bg-surface py-space-xl lg:py-space-2xl px-margin-mobile lg:px-margin relative overflow-hidden">
+<!-- Subtle Ambient Energy Glows -->
+<div class="absolute -top-32 right-0 w-96 h-96 bg-primary-fixed/30 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute bottom-0 left-1/4 w-80 h-80 bg-badge-cyan-bg/50 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="max-w-[1200px] mx-auto flex flex-col gap-space-xl">
+<!-- Tag & Strategic Vision Banner -->
+<div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-badge-emerald-bg">
+<span class="material-symbols-outlined text-eco-emerald text-[18px]">eco</span>
+<span class="font-label-sm text-label-sm text-eco-emerald uppercase">Decarbonization Knowledge Hub</span>
+</div>
+<div class="inline-flex items-center gap-2 px-space-md py-1.5 rounded-lg bg-surface-container-high text-primary font-label-lg text-label-lg shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">public</span>
+<span>인류를 위한 진보 (Progress for Humanity) — 2045 탄소중립 달성을 향한 여정</span>
+</div>
+</div>
+<!-- Main Headline Block -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-end">
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<h1 class="font-display text-display text-primary tracking-tight font-extrabold leading-tight">
+            한눈에 쉽게 배우는<br/>
+<span class="text-secondary">차세대 친환경 모빌리티</span> &amp; 에너지 키워드
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">
+            지구 온난화와 기후변화 위기 속, 도로 위 탄소를 줄이고 미래 세대를 위한 지속가능한 전동화 생태계를 열어갑니다. 공장의 청정 전력 조달(RE100)부터 도로 위 배출 제로 주행(Scope 3)까지 이어지는 친환경 가치사슬을 탐색해 보세요.
+          </p>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-space-sm lg:items-end">
+<div class="p-space-md rounded-xl bg-surface-container-low shadow-sm flex items-center gap-space-md w-full">
+<div class="w-12 h-12 rounded-lg bg-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-on-primary text-[28px]">electric_bolt</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline uppercase">글로벌 전동화 지향점</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Scope 1·2 + Scope 3</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">생산 공정부터 실주행까지 전주기 탄소 저감</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Key Performance Highlight Metric Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg pt-space-md">
+<!-- Metric Card 1 -->
+<div class="relative bg-surface-card rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between overflow-hidden">
+<div class="absolute top-0 left-0 right-0 h-1 bg-electric-cyan"></div>
+<div class="flex items-start justify-between">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">2025 글로벌 전동화 차량 판매</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">electric_car</span>
+</div>
+<div class="my-space-md">
+<div class="flex items-baseline gap-2">
+<span class="font-metric-val text-metric-val text-primary-container font-extrabold">96.1<span class="text-title-lg font-bold">만 대</span></span>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-space-xs">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-badge-cyan-bg text-secondary font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[14px]">trending_up</span> +27% YoY
+            </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">전년 대비 가파른 전환 성장세</span>
+</div>
+</div>
+<!-- Metric Card 2 -->
+<div class="relative bg-surface-card rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between overflow-hidden">
+<div class="absolute top-0 left-0 right-0 h-1 bg-secondary"></div>
+<div class="flex items-start justify-between">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">2025 글로벌 순수 전기차(EV) 판매</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">battery_charging_full</span>
+</div>
+<div class="my-space-md">
+<div class="flex items-baseline gap-2">
+<span class="font-metric-val text-metric-val text-primary-container font-extrabold">27.6<span class="text-title-lg font-bold">만 대</span></span>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-space-xs">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-badge-cyan-bg text-secondary font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[14px]">arrow_upward</span> +26% 성장
+            </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">아이오닉 5 중심 견조한 글로벌 수요</span>
+</div>
+</div>
+<!-- Metric Card 3 -->
+<div class="relative bg-surface-card rounded-xl p-space-lg shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between overflow-hidden">
+<div class="absolute top-0 left-0 right-0 h-1 bg-eco-emerald"></div>
+<div class="flex items-start justify-between">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">궁극적 지향 목표</span>
+<span class="material-symbols-outlined text-eco-emerald text-[24px]">verified</span>
+</div>
+<div class="my-space-md">
+<div class="flex items-baseline gap-2">
+<span class="font-metric-val text-metric-val text-primary font-extrabold">2045<span class="text-title-lg font-bold">년 달성</span></span>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-space-xs">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-badge-emerald-bg text-eco-emerald font-label-sm text-label-sm font-bold">
+              글로벌 탄소중립
+            </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Scope 1·2 생산 + Scope 3 운행 총감축</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: CORE POWERTRAIN COMPARISON (EV vs HEV vs EREV) -->
+<section class="w-full bg-surface-slate py-space-2xl px-margin-mobile lg:px-margin">
+<div class="max-w-[1200px] mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-primary text-on-primary font-bold">CHAPTER 01</span>
+<span class="font-label-sm text-label-sm text-outline uppercase">친환경 모빌리티 핵심 구동 기술</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">배터리와 엔진의 조합: EV vs HEV vs EREV</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          전기를 동력원으로 삼는 모빌리티는 배터리와 내연기관 엔진의 결합 방식 및 역할에 따라 뚜렷한 기술적 개성과 목적을 지닙니다.
+        </p>
+</div>
+<!-- Powertrain Detailed Cards Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-lg">
+<!-- EV Card -->
+<div class="bg-surface-card rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between pb-space-md">
+<span class="px-3 py-1 rounded-full bg-badge-cyan-bg text-secondary font-label-lg text-label-lg font-bold">EV (순수 전기차)</span>
+<span class="font-label-sm text-label-sm text-outline">배출가스 0g/km</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Pure Electric Vehicle</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              화석연료(가솔린·디젤)를 전혀 쓰지 않고 오직 고전압 배터리에 저장된 전력과 전기 모터로만 주행하는 궁극의 친환경 모빌리티입니다.
+            </p>
+<div class="space-y-space-sm bg-surface-container-low p-space-md rounded-lg mb-space-md">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface"><strong>구동 원리:</strong> 100% 전기 모터 및 고전압 배터리 구동</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface"><strong>환경 성과:</strong> 주행 중 배출가스 Zero(0) 실현</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface"><strong>시장 성과:</strong> 2025년 27.6만 대 판매 (전년 대비 +26% 견조한 성장)</span>
+</div>
+</div>
+</div>
+<div class="pt-space-sm">
+<span class="font-label-sm text-label-sm text-outline uppercase block mb-1.5">대표 플릿 &amp; 상용 모델</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-primary font-body-sm text-body-sm font-semibold">아이오닉 5 (글로벌 최다 판매)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-primary font-body-sm text-body-sm">코나 일렉트릭</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-primary font-body-sm text-body-sm">캐스퍼 일렉트릭</span>
+</div>
+</div>
+</div>
+<!-- HEV Card -->
+<div class="bg-surface-card rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between pb-space-md">
+<span class="px-3 py-1 rounded-full bg-surface-container text-primary font-label-lg text-label-lg font-bold">HEV (하이브리드 차)</span>
+<span class="font-label-sm text-label-sm text-outline">전환기 최적 효율</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Hybrid Electric Vehicle</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              내연기관 엔진과 전기 모터를 상황에 따라 정교하게 결합 구동하여 연료 효율을 비약적으로 높인 현실적 전동화 솔루션입니다.
+            </p>
+<div class="space-y-space-sm bg-surface-container-low p-space-md rounded-lg mb-space-md">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface"><strong>구동 원리:</strong> 내연기관 엔진 + 보조 전기 모터 복합 구동</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface"><strong>시장 역할:</strong> 전기차 전환기(캐즘) 연비 효율 향상 및 수익성 보완</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface"><strong>인프라 편의:</strong> 별도 외부 충전기 없이 회생제동 및 자체 충전</span>
+</div>
+</div>
+</div>
+<div class="pt-space-sm">
+<span class="font-label-sm text-label-sm text-outline uppercase block mb-1.5">대표 플릿 &amp; 상용 모델</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-primary font-body-sm text-body-sm font-semibold">투싼 HEV (HEV 최다 판매)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-primary font-body-sm text-body-sm">싼타페 HEV</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-primary font-body-sm text-body-sm">코나 HEV</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-primary font-body-sm text-body-sm">팰리세이드 HEV</span>
+</div>
+</div>
+</div>
+<!-- EREV Card -->
+<div class="bg-surface-card rounded-xl p-space-lg shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex items-center justify-between pb-space-md">
+<span class="px-3 py-1 rounded-full bg-badge-emerald-bg text-eco-emerald font-label-lg text-label-lg font-bold">EREV (주행거리 연장형)</span>
+<span class="font-label-sm text-label-sm text-outline">600마일+ 장거리</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs">Extended Range Electrified Vehicle</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              전기차의 강력한 주행 감각에 장거리 자율성을 결합한 차세대 모빌리티로, 탑재된 엔진은 오직 배터리를 충전하는 발전기 역할만 합니다.
+            </p>
+<div class="space-y-space-sm bg-surface-container-low p-space-md rounded-lg mb-space-md">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-eco-emerald text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface"><strong>구동 원리:</strong> 구동은 100% 모터 전담, 엔진은 발전 전용 발전기</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-eco-emerald text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface"><strong>생산 전략:</strong> 미국 조지아 신공장(HMGMA) 혼류 생산 체계 연계</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-eco-emerald text-[18px] shrink-0 mt-0.5">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface"><strong>장거리 목표:</strong> 1회 충전·주유로 600마일(약 965km) 이상 주행 목표</span>
+</div>
+</div>
+</div>
+<div class="pt-space-sm">
+<span class="font-label-sm text-label-sm text-outline uppercase block mb-1.5">글로벌 전략 라인업</span>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-primary font-body-sm text-body-sm font-semibold">북미 공략 중대형 SUV 신규 라인업</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-primary font-body-sm text-body-sm">HMGMA 혼류 생산 모델</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Comparative Data Matrix Table -->
+<div class="mt-space-md bg-surface-card rounded-xl shadow-sm overflow-hidden">
+<div class="p-space-md bg-primary-container text-on-primary flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary-fixed text-[22px]">table_chart</span>
+<span class="font-title-md text-title-md font-bold">핵심 구동 방식 체계적 비교 매트릭스</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase">2025 HYUNDAI SPECIFICATION</span>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-md text-body-md">
+<thead>
+<tr class="bg-surface-container text-primary font-label-lg text-label-lg">
+<th class="py-space-md px-space-lg">모빌리티 구동 방식</th>
+<th class="py-space-md px-space-lg">작동 원리 및 구동 주체</th>
+<th class="py-space-md px-space-lg">온실가스 배출 여부</th>
+<th class="py-space-md px-space-lg">대표 모델 및 주요 전략적 특징</th>
+</tr>
+</thead>
+<tbody>
+<tr class="bg-surface-card hover:bg-surface-container-low transition-colors">
+<td class="py-space-md px-space-lg font-bold text-primary flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+                  EV (순수 전기차)
+                </td>
+<td class="py-space-md px-space-lg text-on-surface-variant">배터리와 전기 모터만으로 100% 구동 (엔진 배제)</td>
+<td class="py-space-md px-space-lg">
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-badge-cyan-bg text-secondary font-label-sm text-label-sm font-bold">배출가스 0 (Zero Emission)</span>
+</td>
+<td class="py-space-md px-space-lg text-on-surface font-semibold">
+                  아이오닉 5 (글로벌 최다 판매 EV), 코나 일렉트릭, 캐스퍼 일렉트릭
+                </td>
+</tr>
+<tr class="bg-surface-slate hover:bg-surface-container-low transition-colors">
+<td class="py-space-md px-space-lg font-bold text-primary flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+                  HEV (하이브리드 차)
+                </td>
+<td class="py-space-md px-space-lg text-on-surface-variant">내연기관 가솔린 엔진과 전기 모터 결합 주행</td>
+<td class="py-space-md px-space-lg text-on-surface-variant">
+<span class="font-body-sm text-body-sm">내연기관 대비 30~50% 이상 저감</span>
+</td>
+<td class="py-space-md px-space-lg text-on-surface">
+                  투싼 HEV (HEV 최다 판매), 싼타페 HEV, 코나 HEV, 팰리세이드 HEV
+                </td>
+</tr>
+<tr class="bg-surface-card hover:bg-surface-container-low transition-colors">
+<td class="py-space-md px-space-lg font-bold text-primary flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-eco-emerald"></span>
+                  EREV (주행거리 연장형 전기차)
+                </td>
+<td class="py-space-md px-space-lg text-on-surface-variant">모터 100% 구동 + 엔진은 배터리 충전 발전기 전담</td>
+<td class="py-space-md px-space-lg text-on-surface-variant">
+<span class="font-body-sm text-body-sm">발전 시 저공해 배출 (고효율 최적 운전)</span>
+</td>
+<td class="py-space-md px-space-lg text-on-surface">
+                  미국 HMGMA 생산 체계 연계, 1회 충전 600마일(965km)+ 주행 목표
+                </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: HYDROGEN & SDV (FCEV, HTWO, SDV) -->
+<section class="w-full bg-surface py-space-2xl px-margin-mobile lg:px-margin">
+<div class="max-w-[1200px] mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-secondary text-on-secondary font-bold">CHAPTER 02</span>
+<span class="font-label-sm text-label-sm text-outline uppercase">수소 에너지 생태계 &amp; 소프트웨어 지능화</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">수소 에너지와 미래 모빌리티의 두뇌: FCEV &amp; SDV</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          배터리의 무게 한계를 돌파하는 수소 연료전지와, 하드웨어를 최적 제어하는 차량의 '두뇌' 소프트웨어가 결합합니다.
+        </p>
+</div>
+<!-- Bento Grid Layout for FCEV, HTWO, and SDV -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- FCEV Card (7 Cols) -->
+<div class="lg:col-span-7 bg-surface-card rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="px-3 py-1 rounded-full bg-badge-cyan-bg text-secondary font-label-lg text-label-lg font-bold">FCEV &amp; HTWO</span>
+<span class="font-label-sm text-label-sm text-outline">물(H₂O)만 배출하는 청정 동력</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-sm font-bold">
+              수소연료전지 전기차 &amp; 통합 수소 브랜드 HTWO
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              외부 전기를 직접 충전해 쓰는 배터리 전기차와 달리, FCEV는 차량 내부 수소연료전지 스택에서 <strong>수소와 산소의 화학 반응으로 전기를 즉시 자체 생산</strong>하여 모터를 구동합니다. 부산물로 오직 깨끗한 물(수증기)만 발생하며 대기 공기를 정화하는 공기청정기 역할까지 수행합니다.
+            </p>
+<!-- 2 Key Focus Panels -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm my-space-md">
+<div class="p-space-md rounded-lg bg-surface-container-low">
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-secondary text-[20px]">directions_car</span>
+<span class="font-title-md text-title-md text-primary font-bold">2025 2세대 넥쏘 (NEXO)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  상품성과 주행거리를 혁신적으로 개선한 차세대 수소전기 승용 SUV로 글로벌 수소 리더십 수호.
+                </p>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low">
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-secondary text-[20px]">local_shipping</span>
+<span class="font-title-md text-title-md text-primary font-bold">엑시언트 수소 트럭</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  북미 및 유럽 시장에서 실제 상업 운행을 완벽히 입증한 대형 장거리 수송 물류 솔루션.
+                </p>
+</div>
+</div>
+</div>
+<div class="p-space-md rounded-lg bg-primary text-on-primary mt-space-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase">HTWO E-SYSTEM EXPANSION</span>
+<p class="font-body-md text-body-md font-semibold">비자동차 영역(선박, 분산 발전, 미래 항공 AAM)으로 수소 생태계 확장</p>
+</div>
+<span class="material-symbols-outlined text-secondary-fixed text-[32px] shrink-0">hub</span>
+</div>
+</div>
+<!-- SDV Card (5 Cols) -->
+<div class="lg:col-span-5 bg-gradient-to-br from-surface-card to-surface-container-low rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-md">
+<span class="px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-lg text-label-lg font-bold">SDV</span>
+<span class="font-label-sm text-label-sm text-outline">모빌리티의 '두뇌'</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-sm font-bold">
+              소프트웨어 중심 자동차<br/>Software Defined Vehicle
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              친환경 구동 하드웨어가 '심장과 근육'이라면, SDV는 이를 제어하는 지능형 '두뇌'입니다. 무선 소프트웨어 업데이트(OTA)를 통해 차량의 성능과 제어가 스마트폰처럼 지속 진화합니다.
+            </p>
+<!-- Technical Platform Highlight -->
+<div class="bg-surface-card p-space-md rounded-xl shadow-sm mb-space-md space-y-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">developer_board</span>
+<span class="font-title-md text-title-md text-primary font-bold">통합 기술 플랫폼 '플레오스 (Pleos)'</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                단순한 인포테인먼트 업데이트를 넘어, <strong>배터리 관리 시스템(BMS)</strong>과 <strong>수소연료전지 스택 반응</strong>을 정밀 제어하여 에너지 효율을 극한까지 최적화합니다.
+              </p>
+</div>
+</div>
+<div class="space-y-2">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>OTA 주행 에너지 알고리즘 고도화</span>
+<span class="font-bold text-secondary">REAL-TIME OPTIMIZING</span>
+</div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden">
+<div class="w-4/5 h-full bg-secondary rounded-full"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: RE100 & PPA (ENERGY TRANSITION NORMS) -->
+<section class="w-full bg-surface-slate py-space-2xl px-margin-mobile lg:px-margin">
+<div class="max-w-[1200px] mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-eco-emerald text-on-tertiary font-bold">CHAPTER 03</span>
+<span class="font-label-sm text-label-sm text-outline uppercase">글로벌 에너지 전환 규범</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">깨끗한 전기를 만드는 에너지 전환: RE100 &amp; PPA</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          아무리 무배출 전기차라도 화석연료 발전 공장에서 생산된다면 완전한 친환경일 수 없습니다. 제조 공장 단계(Scope 1·2)부터 청정에너지를 쓰는 엄격한 글로벌 전환을 추진합니다.
+        </p>
+</div>
+<!-- RE100 Roadmap Timeline -->
+<div class="bg-surface-card rounded-xl p-space-lg shadow-sm flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm pb-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-eco-emerald font-bold uppercase tracking-wider">MILESTONE ROADMAP</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">현대자동차 글로벌 RE100 3단계 시계열 로드맵</h3>
+</div>
+<span class="px-3 py-1 rounded-full bg-badge-emerald-bg text-eco-emerald font-label-sm text-label-sm font-bold">
+            글로벌 기준(2050) 대비 5년 조기 달성 (2045)
+          </span>
+</div>
+<!-- 3-Phase Interactive Timeline Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg relative">
+<!-- Step 1 -->
+<div class="flex flex-col p-space-md rounded-xl bg-surface-container-low relative">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="px-2.5 py-1 rounded bg-eco-emerald text-on-tertiary font-headline-sm text-headline-sm font-extrabold">2025</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-eco-emerald font-bold">
+<span class="material-symbols-outlined text-[16px]">check</span> 1단계 권역 달성
+              </span>
+</div>
+<h4 class="font-title-lg text-title-lg text-primary font-bold mb-space-xs">유럽·북미·인도 전 사업장 RE100</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              유럽, 북미, 인도 지역 주요 생산 거점 100% 달성 완료. 해외 사업장 재생에너지 전환율 88%, 글로벌 전 사업장 기준 35% 전환 달성.
+            </p>
+<div class="mt-auto pt-space-sm bg-surface-card p-space-sm rounded-lg flex items-center justify-between font-label-sm text-label-sm text-primary font-bold">
+<span>해외 사업장 재생 전환율</span>
+<span class="text-eco-emerald text-title-md font-extrabold">88%</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-col p-space-md rounded-xl bg-surface-container-low relative">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="px-2.5 py-1 rounded bg-primary text-on-primary font-headline-sm text-headline-sm font-extrabold">2027</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary font-bold">
+<span class="material-symbols-outlined text-[16px]">hourglass_top</span> 2단계 해외 완결
+              </span>
+</div>
+<h4 class="font-title-lg text-title-lg text-primary font-bold mb-space-xs">해외 전 사업장 100% 달성</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              국내 사업장을 제외한 전 세계 해외 생산 공장, R&amp;D 센터, 법인에 대해 100% 재생에너지 전력 인프라 전환 완수.
+            </p>
+<div class="mt-auto pt-space-sm bg-surface-card p-space-sm rounded-lg flex items-center justify-between font-label-sm text-label-sm text-primary font-bold">
+<span>해외 전 사업장 RE100</span>
+<span class="text-primary text-title-md font-extrabold">100% 목표</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="flex flex-col p-space-md rounded-xl bg-surface-container-low relative">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="px-2.5 py-1 rounded bg-primary-container text-secondary-fixed font-headline-sm text-headline-sm font-extrabold">2045</span>
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-primary font-bold">
+<span class="material-symbols-outlined text-[16px]">flag</span> 3단계 최종 완결
+              </span>
+</div>
+<h4 class="font-title-lg text-title-lg text-primary font-bold mb-space-xs">국내 포함 글로벌 완전 달성</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+              울산, 아산, 전주, 남양연구소 등 국내 핵심 사업장까지 포괄하여 전 세계 현대자동차 모든 사업장 사용 전력 100% 무탄소 재생 전환 완결.
+            </p>
+<div class="mt-auto pt-space-sm bg-surface-card p-space-sm rounded-lg flex items-center justify-between font-label-sm text-label-sm text-primary font-bold">
+<span>글로벌 전 사업장 RE100</span>
+<span class="text-primary font-extrabold text-title-md">완전 달성 (Net-Zero)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- PPA Concept & Practice Case Study Cards -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- PPA Educational Analogy (5 Cols) -->
+<div class="lg:col-span-5 bg-surface-card rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-badge-cyan-bg text-secondary font-label-sm text-label-sm font-bold mb-space-md">
+<span class="material-symbols-outlined text-[16px]">lightbulb</span>
+              초보자를 위한 PPA 쉬운 비유
+            </div>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mb-space-sm">
+              PPA (전력구매계약)란?<br/>
+<span class="text-secondary">'친환경 전기 직거래 장터'</span>
+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              일반 전력망은 화석연료와 원자력 등 온갖 전기가 한데 섞여 있어 진짜 친환경 전기를 가려내기 어렵습니다. <strong>PPA(Power Purchase Agreement)</strong>는 기업이 태양광·풍력 발전소와 1:1로 직접 장기 구매 계약을 맺어 <strong>'출처가 확실하고 검증된 재생에너지'</strong>만 공급받는 직거래 제도입니다.
+            </p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-slate space-y-space-xs">
+<div class="flex items-center gap-2 font-title-md text-title-md text-primary font-bold">
+<span class="material-symbols-outlined text-eco-emerald">verified_user</span>
+              왜 PPA가 RE100의 핵심 열쇠일까요?
+            </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              장기적이고 대규모의 고정가격 계약을 통해 재생에너지 발전소 건립 투자를 직접 견인하며, 기업의 전력 요금 변동 리스크를 동시에 방어합니다.
+            </p>
+</div>
+</div>
+<!-- PPA Real World Cases (7 Cols) -->
+<div class="lg:col-span-7 bg-surface-card rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between mb-space-md">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">현대자동차 글로벌 &amp; 국내 PPA 실전 사례</h3>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-surface-container text-on-surface font-semibold">실제 계약 규모</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md mb-space-md">
+<!-- Case 1: HMGMA Georgia -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-secondary text-[24px]">solar_power</span>
+<span class="font-label-sm text-label-sm text-outline uppercase font-bold">북미 전동화 거점</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-primary font-bold mb-1">미국 조지아 HMGMA</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+                  대규모 스마트 전동화 신공장 친환경 가동을 위해 그룹 차원의 대규모 태양광 전력구매계약 체결.
+                </p>
+</div>
+<div class="pt-space-sm bg-surface-card p-space-sm rounded-lg flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">태양광 PPA 체결</span>
+<span class="font-headline-sm text-headline-sm text-secondary font-extrabold">147 MW</span>
+</div>
+</div>
+<!-- Case 2: Korea Domestic Facilities -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-eco-emerald text-[24px]">factory</span>
+<span class="font-label-sm text-label-sm text-outline uppercase font-bold">국내 핵심 사업장</span>
+</div>
+<h4 class="font-title-lg text-title-lg text-primary font-bold mb-1">국내 생산공장 &amp; 연구소</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+                  2024년 대규모 PPA 체결을 통해 2025년부터 매년 약 610GWh 친환경 재생에너지를 안정적 수급.
+                </p>
+</div>
+<div class="pt-space-sm bg-surface-card p-space-sm rounded-lg flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">국내 PPA 총계약</span>
+<span class="font-headline-sm text-headline-sm text-eco-emerald font-extrabold">444 MW</span>
+</div>
+</div>
+</div>
+<!-- Impact Metric Strip -->
+<div class="p-space-md rounded-xl bg-badge-emerald-bg flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-eco-emerald text-[32px]">co2</span>
+<div>
+<span class="font-label-sm text-label-sm text-eco-emerald font-bold uppercase">연간 온실가스 감축 실적</span>
+<p class="font-title-md text-title-md text-primary font-bold">국내 PPA만으로 연간 약 28만 톤 온실가스 상쇄</p>
+</div>
+</div>
+<div class="text-right shrink-0">
+<span class="font-label-sm text-label-sm text-eco-emerald font-semibold">연간 재생에너지 공급량</span>
+<p class="font-headline-sm text-headline-sm text-eco-emerald font-extrabold">약 610 GWh / 년</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: LEARNER'S TAKEAWAY & VALUE CHAIN DIAGRAM -->
+<section class="w-full bg-surface py-space-2xl px-margin-mobile lg:px-margin">
+<div class="max-w-[1200px] mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-primary text-on-primary font-bold">CHAPTER 04</span>
+<span class="font-label-sm text-label-sm text-outline uppercase">종합 요약 &amp; 생태계 가치사슬</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">생초보자를 위한 한눈에 보는 요약 노트 (Takeaway)</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          모빌리티 하드웨어(EV·HEV·EREV·FCEV), 소프트웨어(SDV), 그리고 에너지 조달(RE100·PPA)이 하나의 완전한 탄소중립 가치사슬로 이어집니다.
+        </p>
+</div>
+<!-- 6-Keyword Quick Reference Table -->
+<div class="bg-surface-card rounded-xl shadow-sm overflow-hidden">
+<div class="p-space-md bg-inverse-surface text-on-primary flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-tertiary-fixed text-[24px]">bookmark_check</span>
+<span class="font-title-md text-title-md font-bold">핵심 6대 키워드 종합 점검표</span>
+</div>
+<span class="font-label-sm text-label-sm text-surface-variant uppercase">BEGINNER QUICK REFERENCE</span>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-md text-body-md">
+<thead>
+<tr class="bg-surface-container text-primary font-label-lg text-label-lg">
+<th class="py-space-md px-space-lg w-28">용어</th>
+<th class="py-space-md px-space-lg">한 줄 핵심 정의</th>
+<th class="py-space-md px-space-lg">입문자가 꼭 기억할 핵심 가치 (So What?)</th>
+<th class="py-space-md px-space-lg w-44">대표 레퍼런스</th>
+</tr>
+</thead>
+<tbody>
+<tr class="bg-surface-card hover:bg-surface-container-low transition-colors">
+<td class="py-space-md px-space-lg font-bold text-secondary">EV</td>
+<td class="py-space-md px-space-lg text-on-surface">배터리와 전기 모터만으로 달리는 순수 전기차</td>
+<td class="py-space-md px-space-lg text-on-surface-variant">주행 시 온실가스 배출 Zero(0)</td>
+<td class="py-space-md px-space-lg font-semibold text-primary">아이오닉 5</td>
+</tr>
+<tr class="bg-surface-slate hover:bg-surface-container-low transition-colors">
+<td class="py-space-md px-space-lg font-bold text-primary">HEV</td>
+<td class="py-space-md px-space-lg text-on-surface">내연기관 엔진과 전기 모터의 효율적 결합</td>
+<td class="py-space-md px-space-lg text-on-surface-variant">전기차 전환기 우수한 연비와 현실적 수익성 보완</td>
+<td class="py-space-md px-space-lg font-semibold text-primary">투싼 HEV</td>
+</tr>
+<tr class="bg-surface-card hover:bg-surface-container-low transition-colors">
+<td class="py-space-md px-space-lg font-bold text-eco-emerald">EREV</td>
+<td class="py-space-md px-space-lg text-on-surface">모터로 구동하고 엔진은 배터리를 충전하는 발전차</td>
+<td class="py-space-md px-space-lg text-on-surface-variant">미국 조지아 HMGMA 연계, 600마일 이상 긴 주행거리 확보</td>
+<td class="py-space-md px-space-lg font-semibold text-primary">북미 전략 SUV</td>
+</tr>
+<tr class="bg-surface-slate hover:bg-surface-container-low transition-colors">
+<td class="py-space-md px-space-lg font-bold text-secondary">FCEV</td>
+<td class="py-space-md px-space-lg text-on-surface">수소와 산소의 반응으로 전기를 자체 생산해 구동</td>
+<td class="py-space-md px-space-lg text-on-surface-variant">물만 배출하며 대형 트럭·상용차 등 배터리 무게 한계 극복</td>
+<td class="py-space-md px-space-lg font-semibold text-primary">2세대 넥쏘 / 엑시언트</td>
+</tr>
+<tr class="bg-surface-card hover:bg-surface-container-low transition-colors">
+<td class="py-space-md px-space-lg font-bold text-eco-emerald">RE100</td>
+<td class="py-space-md px-space-lg text-on-surface">사업장 사용 전력 100%를 재생에너지로 충당</td>
+<td class="py-space-md px-space-lg text-on-surface-variant">2045 탄소중립을 위한 기업의 글로벌 전력 약속</td>
+<td class="py-space-md px-space-lg font-semibold text-primary">2045 완전 달성 로드맵</td>
+</tr>
+<tr class="bg-surface-slate hover:bg-surface-container-low transition-colors">
+<td class="py-space-md px-space-lg font-bold text-primary">PPA</td>
+<td class="py-space-md px-space-lg text-on-surface">재생에너지 발전 사업자와 기업 간의 1:1 전력구매계약</td>
+<td class="py-space-md px-space-lg text-on-surface-variant">RE100 실현을 위한 대규모 청정 전력 직거래 조달 방식</td>
+<td class="py-space-md px-space-lg font-semibold text-primary">HMGMA 147MW / 국내 444MW</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- Integrated Value Chain Blueprint Card (The Gearwheel Ecosystem) -->
+<div class="bg-gradient-to-br from-primary via-primary-container to-inverse-surface rounded-2xl p-space-xl text-on-primary shadow-xl relative overflow-hidden">
+<!-- Blueprint Accents -->
+<div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-secondary/20 blur-3xl pointer-events-none"></div>
+<div class="flex flex-col gap-space-lg relative z-10">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-card/10 text-secondary-fixed font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[16px]">sync_alt</span> ECOSYSTEM VALUE CHAIN
+              </span>
+<h3 class="font-headline-lg text-headline-lg text-on-primary font-bold mt-space-xs">
+                탄소중립 모빌리티 생태계 가치사슬
+              </h3>
+</div>
+<p class="font-body-sm text-body-sm text-surface-variant max-w-sm">
+              낱개의 기술이 아닌 세 가지 기둥이 톱니바퀴처럼 맞물려 완벽한 넷제로 사이클을 완성합니다.
+            </p>
+</div>
+<!-- 3 Cogwheel Interlocking Columns -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md pt-space-sm">
+<!-- Gear 1: Energy Procurement -->
+<div class="bg-surface-card/10 backdrop-blur-md rounded-xl p-space-md flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-eco-emerald flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-on-tertiary text-[24px]">solar_power</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary-fixed uppercase font-bold">01. 청정에너지 조달</span>
+<h4 class="font-title-lg text-title-lg text-on-primary font-bold my-1">RE100 &amp; PPA</h4>
+<p class="font-body-sm text-body-sm text-surface-variant">
+                  태양광·풍력 직거래 계약으로 공장 생산 단계(Scope 1·2)에서 발생하는 제조 탄소를 원천 차단합니다.
+                </p>
+</div>
+<div class="mt-space-md pt-space-xs text-secondary-fixed font-label-sm text-label-sm flex items-center gap-1">
+<span>무탄소 제조 공정 실현</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Gear 2: Hardware Powertrain -->
+<div class="bg-surface-card/10 backdrop-blur-md rounded-xl p-space-md flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-on-secondary text-[24px]">electric_car</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase font-bold">02. 친환경 구동체계</span>
+<h4 class="font-title-lg text-title-lg text-on-primary font-bold my-1">EV · HEV · EREV · FCEV</h4>
+<p class="font-body-sm text-body-sm text-surface-variant">
+                  도로 위 실제 주행 시 발생하는 배출가스(Scope 3)를 제로화하고 장거리 수송 물류까지 무탄소로 전환합니다.
+                </p>
+</div>
+<div class="mt-space-md pt-space-xs text-secondary-fixed font-label-sm text-label-sm flex items-center gap-1">
+<span>도로 위 무배출 실현</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Gear 3: Software Optimizer -->
+<div class="bg-surface-card/10 backdrop-blur-md rounded-xl p-space-md flex flex-col justify-between">
+<div>
+<div class="w-10 h-10 rounded-lg bg-electric-cyan flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px]">memory</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase font-bold">03. 스마트 제어 두뇌</span>
+<h4 class="font-title-lg text-title-lg text-on-primary font-bold my-1">SDV &amp; Pleos</h4>
+<p class="font-body-sm text-body-sm text-surface-variant">
+                  무선 소프트웨어 업데이트(OTA)와 AI BMS로 배터리와 수소연료전지의 효율성을 실시간으로 극대화합니다.
+                </p>
+</div>
+<div class="mt-space-md pt-space-xs text-secondary-fixed font-label-sm text-label-sm flex items-center gap-1">
+<span>에너지 제어 극대화</span>
+<span class="material-symbols-outlined text-[16px]">verified</span>
+</div>
+</div>
+</div>
+<!-- Bottom Summary Conclusion -->
+<div class="p-space-md rounded-xl bg-surface-card/5 flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary-fixed text-[28px]">all_inclusive</span>
+<p class="font-body-md text-body-md text-surface-bright font-medium">
+                하드웨어 구동 기술 + 소프트웨어 지능화 + 100% 재생에너지 공급망이 융합되어 <strong>2045 글로벌 탄소중립</strong>을 실현합니다.
+              </p>
+</div>
+<a class="inline-flex items-center gap-2 px-space-md py-space-sm rounded-lg bg-secondary-fixed text-on-secondary-fixed font-label-lg text-label-lg font-bold hover:bg-secondary-container transition-colors shrink-0" data-path="sustainability-dashboard" href="#">
+<span>ESG 성과 대시보드 확인</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low mt-space-2xl"><div class="max-w-[1200px] mx-auto px-margin-mobile lg:px-margin py-space-xl flex flex-col gap-space-xl"><div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg pb-space-lg"><div class="space-y-space-xs"><div class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-badge-emerald-bg"><span class="w-2 h-2 rounded-full bg-eco-emerald"></span><span class="font-label-sm text-label-sm text-eco-emerald">2045 CARBON NEUTRALITY</span></div><h3 class="font-headline-sm text-headline-sm text-primary">Progress for Humanity</h3><p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">현대자동차는 지속 가능한 에너지를 기반으로 미래 세대를 위한 이동의 자유와 공존의 가치를 실현합니다. 친환경 전동화 모빌리티와 수소 솔루션 생태계를 통해 탄소중립 실천을 가속화합니다.</p></div><div class="flex flex-wrap items-center gap-space-sm"><a class="px-space-md py-space-sm rounded-lg bg-surface font-label-lg text-label-lg text-primary hover:bg-surface-container-highest hover:text-on-surface transition-colors shadow-[0_1px_3px_rgba(0,44,95,0.04)]" data-path="sustainability-report" href="#">지속가능경영 보고서</a><a class="px-space-md py-space-sm rounded-lg bg-surface font-label-lg text-label-lg text-primary hover:bg-surface-container-highest hover:text-on-surface transition-colors shadow-[0_1px_3px_rgba(0,44,95,0.04)]" data-path="energy-re100" href="#">RE100 로드맵</a></div></div><div class="grid grid-cols-2 md:grid-cols-4 gap-space-lg pt-space-md"><div class="space-y-space-sm"><span class="font-label-sm text-label-sm text-outline uppercase">기술 프레임워크</span><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="powertrain-tech" href="#">순수 전기차 (BEV)</a></li><li><a class="hover:text-primary transition-colors" data-path="powertrain-tech" href="#">하이브리드 &amp; EREV</a></li><li><a class="hover:text-primary transition-colors" data-path="hydrogen-sdv" href="#">수소 연료전지 (FCEV)</a></li></ul></div><div class="space-y-space-sm"><span class="font-label-sm text-label-sm text-outline uppercase">소프트웨어 &amp; 비전</span><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="hydrogen-sdv" href="#">SDV 전환 아키텍처</a></li><li><a class="hover:text-primary transition-colors" data-path="hydrogen-sdv" href="#">자율주행 및 커넥티비티</a></li><li><a class="hover:text-primary transition-colors" data-path="overview" href="#">스마트 모빌리티 솔루션</a></li></ul></div><div class="space-y-space-sm"><span class="font-label-sm text-label-sm text-outline uppercase">기후 전략</span><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="energy-re100" href="#">글로벌 사업장 RE100</a></li><li><a class="hover:text-primary transition-colors" data-path="energy-re100" href="#">공급망 저탄소화</a></li><li><a class="hover:text-primary transition-colors" data-path="summary-notes" href="#">생애주기 평가 (LCA)</a></li></ul></div><div class="space-y-space-sm"><span class="font-label-sm text-label-sm text-outline uppercase">관련 서비스</span><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="sustainability-dashboard" href="#">ESG 성과 모니터링</a></li><li><a class="hover:text-primary transition-colors" data-path="sustainability-report" href="#">공식 백서 라이브러리</a></li><li><a class="hover:text-primary transition-colors" data-path="summary-notes" href="#">입문 가이드 아카이브</a></li></ul></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-outline"><p>© 2025 Hyundai Motor Company. All rights reserved.</p><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">개인정보처리방침</a><a class="hover:text-on-surface transition-colors" data-path="terms-of-use" href="#">이용약관</a><a class="hover:text-on-surface transition-colors" data-path="sustainability-dashboard" href="#">시스템 상태</a></div></div></div></footer></body></html>
